@@ -6,8 +6,8 @@ from telegram import Bot
 
 app = Flask(__name__)
 
-TOKEN = os.getenv("BOT_TOKEN")
-ADMIN_ID = os.getenv("ADMIN_ID")
+TOKEN = os.getenv("7771119375:AAHXxYXQtqDvZmoqcGSepFu94XYjMunTIIc")
+ADMIN_ID = os.getenv("6680027477")
 bot = Bot(token=TOKEN)
 
 def generate_key():

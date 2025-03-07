@@ -6,7 +6,7 @@ from telegram import Bot
 
 app = Flask(__name__)
 
-TOKEN = os.getenv("7771119375:AAHXxYXQtqDvZmoqcGSepFu94XYjMunTIIc")
+TOKEN = os.getenv("7860293663:AAF59dEj8t_p02f4gBctonWlIYwIzFudA_I")
 ADMIN_ID = os.getenv("6680027477")
 bot = Bot(token=TOKEN)
 
